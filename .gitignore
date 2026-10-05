@@ -1,0 +1,37 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment values, credentials and local tooling
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.codex/
+.agents/
+.openai/
+.vercel/
+AGENTS.md
+CLAUDE.md
+
+# Temporary/debug artifacts
+work/
+tmp/
+temp/
+.cache/
+.pnpm-store/
+*.log
+*.pid
+*.zip
+.DS_Store
+Thumbs.db
+Desktop.ini
